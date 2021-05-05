@@ -23,7 +23,7 @@
               '/blocks/faktura_pdf/faktura.php',
               ['faktura' => $enrolment->id]
             ),
-            $enrolment->shortname.' faktura'
+            $enrolment->shortname.' '.get_string('faktura', 'block_faktura_pdf')
           )."\r\n";
       }
       //$this->content->footer = 'footer';
